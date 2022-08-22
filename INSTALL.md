@@ -115,15 +115,15 @@ sudo apt install -y ksh xutils/x11-utils xdotool imagemagick \
 sudo dnf update
 sudo dnf install -y ksh xorg-x11-utils xdotool ImageMagick xscreensaver \
     python3-pyyaml python3-qt5 qt5ct qt5-styleplugins \
-    stalonetray xterm pyhon3 pyhon3-pyxdg libstroke xsettingsd \
+    stalonetray xterm python3 python3-pyxdg libstroke xsettingsd \
     fvwm perl-File-MimeInfo gkrellm rofi xclip
 ```
 
 - FreeBSD/ DragonflyBSD/ GhostBSD/ MidnightBSD
 ``` sh
-sudo pkg install ksh2020 xorg ImageMagic6/7 xscreensaver \ 
+sudo pkg install ksh2020 xorg ImageMagick6/7 xscreensaver \ 
     py37-yaml py37-qt5 qt5ct qt5-style-plugins 
-    stalonetray xterm pyhon3 py37-xdg libstroke xsettingsd \ 
+    stalonetray xterm python3 py37-xdg libstroke xsettingsd \ 
     fvwm3 p5-File-MimeInfo gkrellm2 rofi
 ```
 
@@ -165,7 +165,7 @@ emerge @nscde-desktop
 sudo dnf update
 sudo dnf install -y xorg xdotool imagemagick xscreensaver \
     python-pyyaml python-qt5 qt5ct qt5-style-plugins \
-    stalonetray xterm pyhon3 pyhon-xdg llib64stroke0 xsettingsd \
+    stalonetray xterm python3 python-xdg llib64stroke0 xsettingsd \
     fvwm2 perl-File-MimeInfo gkrellm rofi xclip
 cd ~
 git clone --depth 1 https://github.com/att/ast.git
@@ -173,13 +173,13 @@ git clone --depth 1 https://github.com/att/ast.git
 sudo ./bin/package install
 ```
 
-- OpenSUSE Leaf /Tumbleweed / GeckoLinux
+- OpenSUSE Leap /Tumbleweed / GeckoLinux
 ``` sh
 sudo zypper ref
 sudo zypper up
 sudo zypper in ksh-93uv xorg xdotool ImageMagick xscreensaver \
     python3-pyyaml python3-PyQt5 qt5ct libqt5-styleplugins \ 
-    stalonetray xterm pyhon3 libstroke xsettingsd fvwm2 \
+    stalonetray xterm python3 libstroke xsettingsd fvwm2 \
     perl-File-MimeInfo gkrellm rofi xclip
 ```
 
@@ -188,7 +188,7 @@ sudo zypper in ksh-93uv xorg xdotool ImageMagick xscreensaver \
 xbps-install -Su
 xbps-install -Sy xorg xdotool ImageMagick xscreensaver \
     python3-yaml python3-PyQt5 qt5ct qt5-styleplugins \ 
-    stalonetray xterm pyhon3 pyhon3-xdg xsettingsd \
+    stalonetray xterm python3 python3-xdg xsettingsd \
     fvwm3 perl-File-MimeInfo gkrellm rofi xclip
 cd ~
 git clone --depth 1 https://github.com/att/ast.git
